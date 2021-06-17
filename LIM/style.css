@@ -1,0 +1,131 @@
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+h1
+{
+    color: #66da2de1;
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 
+{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.1;
+}
+p
+ {
+    line-height: 0.7;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+  }
+  
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 150px;
+    position: relative;
+    background-color: rgba(0,0,0,0.60);
+    color: white; 
+}
+
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    
+}
+
+
+.container4 {
+    border-radius: 7px;
+    background: #d1ce21;
+    padding: 10px; 
+    width: 300px;
+    height: 15px; 
+
+}
+.container5 {
+    border-radius: 7px;
+    background: green;
+    padding: 10px; 
+    width: 450px;
+    height: 15px;
+
+    
+
+}
+.container6 {
+    border-radius: 7px;
+    background: red;
+    padding: 10px; 
+    width: 100px;
+    height: 15px; 
+}
+#container2{
+    background-color:rgb(63, 223, 63);
+    padding: 15px;
+    text-align: center;
+}
+.bar{
+    background: black;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span
+{
+    height: 2px;
+    float: left;
+    background:rgb(63, 223, 63)
+}
+.gino{
+    width: 45%;
+    animation: gino 2s;
+}
+.mike{
+    width: 70%;
+    animation: mike 2s;
+}
+.fede{    
+    width: 20%;
+    animation: fede 2s;
+}
+
+
+@keyframes gino {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 45%;
+    }
+
+}
+
+@keyframes mike {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+
+}
+@keyframes fede {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 20%;
+    }
+
+}
